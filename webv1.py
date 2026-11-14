@@ -10,23 +10,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-# Esto muestra el título grande y blanco DENTRO de tu página web
-st.markdown(
-    "<h1 style='text-align: center; color: white; font-size: 50px;'>Portfolio | Sergio Gonzalez Rodriguez</h1>", 
-    unsafe_allow_html=True
-)
-
-# Estilos CSS personalizados para darle un toque más profesional y limpio
-st.markdown("""
-    <style>
-    .main-header { font-size: 2.8rem; font-weight: 700; color: #1E3A8A; margin-bottom: 0;}
-    .sub-header { font-size: 1.5rem; color: #4B5563; margin-top: 0; margin-bottom: 1.5rem;}
-    .section-title { color: #1E3A8A; border-bottom: 2px solid #E5E7EB; padding-bottom: 10px; margin-top: 2rem;}
-    .metric-card { background-color: #F3F4F6; padding: 15px; border-radius: 8px; text-align: center; }
-    </style>
-""", unsafe_allow_html=True)
-
 # ==========================================
 # BARRA LATERAL (MENÚ DE NAVEGACIÓN)
 # ==========================================
